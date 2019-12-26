@@ -9,120 +9,120 @@
   <title>Encuesta Satisfaccion Cincel</title>
 </head>
 <div class="has-text-centered">
-  <header>
-    <img src="./images/logocincel.png" alt="logocincel">
-    <td>
-      <h1>
-        <span>
+  <img src="./images/logocincel.png" alt="logocincel">
+  <h1 class="title">
 
-          PRUEBA LIDERAZGO
+    PRUEBA LIDERAZGO
 
-        </span>
-      </h1>
-    </td>
-  </header>
+  </h1>
 </div>
 
 <body>
-  <div class="container">
-    <div class="has-text-centered">
-      <p class="is-medium"> <strong>Cincel</strong> estamos construyendo un instrumento para la valoracion del
-        estilo de
-        liderazgo.Esto
-        requiere una etapa previa que permita analizar la confiabilidad y validez de un instrumento de medicion y de los
-        ítems que lo componen,y estandarizar las escalas de medida.Para cumplir con este propósito necesitamos
-        recolectar
-        un
-        amplio número de respuestas,tanto de la versión que responden los líderes como de la que responden los
-        colaboradores.
-        Tenga presente que todas las respuestas que nos proporcione serán tratadas de manera confidencial y anónima,pues
-        no
-        se expondrá los datos que brinde.La información sera almacenada en un medio electrónicobajo la responsabilidad
-        de
-        los consultores.De este primer ejercicio no se entregará resultados.
-      </p>
-    </div>
-    <div>
-      <br>
-      <strong>Al decidir participar usted certifica que:</strong>
-      <br>
+  <div id="app">
+    <div class="container">
+      <section>
+        <div class="has-text-centered">
+          <p class="is-medium"> <strong>Cincel</strong> estamos construyendo un instrumento para la valoracion del
+            estilo de
+            liderazgo.Esto
+            requiere una etapa previa que permita analizar la confiabilidad y validez de un instrumento de medicion y de
+            los
+            ítems que lo componen,y estandarizar las escalas de medida.Para cumplir con este propósito necesitamos
+            recolectar
+            un
+            amplio número de respuestas,tanto de la versión que responden los líderes como de la que responden los
+            colaboradores.
+            Tenga presente que todas las respuestas que nos proporcione serán tratadas de manera confidencial y
+            anónima,pues
+            no
+            se expondrá los datos que brinde.La información sera almacenada en un medio electrónicobajo la
+            responsabilidad
+            de
+            los consultores.De este primer ejercicio no se entregará resultados.
+          </p>
+        </div>
+        <div>
+          <br>
+          <strong>Al decidir participar usted certifica que:</strong>
+          <br>
 
-      - Lo hace libre y voluntariamente.
-      <br>
-      - Se respondieron sus inquietudes.
-      <br>
-      - Comprende el propósito de esta encuesta.
-      <br>
-      - Será honesto al responder.
-      <br>
-      - Autoriza que la información podrá ser utilizada para efectos de investigación en psicología organizacional.
-      <br>
-      <br>
+          - Lo hace libre y voluntariamente.
+          <br>
+          - Se respondieron sus inquietudes.
+          <br>
+          - Comprende el propósito de esta encuesta.
+          <br>
+          - Será honesto al responder.
+          <br>
+          - Autoriza que la información podrá ser utilizada para efectos de investigación en psicología organizacional.
+          <br>
+          <br>
 
-      <h4>
-        <span><strong>¿Esta de acuerdo con participar?</strong></span>
-      </h4>
-      <br>
-      <div class="control">
-        <label class="radio">
-          <input type="radio" name="rsvp">
-          Si
-        </label>
+          <h4>
+            <span><strong>¿Esta de acuerdo con participar?</strong></span>
+          </h4>
+          <br>
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="rsvp">
+              Si
+            </label>
+            <br>
+            <label class="radio">
+              <input type="radio" name="rsvp">
+              No
+            </label>
+          </div>
+          <br>
+          <div class="has-text-centered">
+            <button @click="siguiente(1)" class="button is-primary">Siguiente</button>
+          </div>
+
+        </div>
+      </section>
+
+
+      <section>
+        <div>
+          <strong>GENERO</strong>
+          <br>
+          <br>
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="rsvp">
+              Masculino
+            </label>
+            <br>
+            <label class="radio">
+              <input type="radio" name="rsvp">
+              Femenino
+            </label>
+          </div>
+        </div>
+
+
         <br>
-        <label class="radio">
-          <input type="radio" name="rsvp">
-          No
-        </label>
-      </div>
-      <br>
-      <div class="has-text-centered">
-        <button @click="" class="button is-primary">Siguiente</button>
-      </div>
-
-    </div>
-  </div>
-
-  <section class="container">
-    <div>
-      <strong>GENERO</strong>
-      <br>
-      <br>
-      <div class="control">
-        <label class="radio">
-          <input type="radio" name="rsvp">
-          Masculino
-        </label>
         <br>
-        <label class="radio">
-          <input type="radio" name="rsvp">
-          Femenino
-        </label>
-      </div>
+        <strong>EDAD</strong>
+        <br>
+        <br>
+        <div class="control">
+          <label class="radio">
+            <input type="radio" name="rsvp">
+            18 a 36 años
+          </label>
+          <br>
+          <label class="radio">
+            <input type="radio" name="rsvp">
+            37 a 51 años
+          </label>
+          <br>
+          <label class="radio">
+            <input type="radio" name="rsvp">
+            52 a 65 años
+          </label>
+        </div>
 
-    </div>
-    <div>
-      <br>
-      <br>
-      <strong>EDAD</strong>
-      <br>
-      <br>
-      <div class="control">
-        <label class="radio">
-          <input type="radio" name="rsvp">
-          18 a 36 años
-        </label>
-        <br>
-        <label class="radio">
-          <input type="radio" name="rsvp">
-          37 a 51 años
-        </label>
-        <br>
-        <label class="radio">
-          <input type="radio" name="rsvp">
-          52 a 65 años
-        </label>
-      </div>
-      <div>
         <br>
         <br>
         <strong>NIVEL EDUCATIVO ALCANZADO</strong>
@@ -208,100 +208,111 @@
           </div>
           <br>
           <div class="has-text-centered">
-            <button @click="" class="button is-primary">Anterior</button> <button @click=""
+            <button @click="" class="button is-primary">Anterior</button> <button @click="siguiente(1)"
               class="button is-primary">Siguiente</button>
           </div>
-
         </div>
-        <div>
-          <section>
-            <strong>¿Usted es jefe?</strong>
-            <br>
-            <br>
-            <label class="radio">
-              <input type="radio" name="rsvp">
-              Si
-            </label>
-            <br>
-            <label class="radio">
-              <input type="radio" name="rsvp">
-              No
-            </label>
-            <div class="has-text-centered">
-              <button @click="" class="button is-primary">Anterior</button> <button @click=""
-                class="button is-primary">Siguiente</button>
-            </div>
-          </section>
-        </div>
-        <div>
-          <section>
-            <strong>Lo invitamos a seguir las instrucciones:</strong>
-            <br>
-            <br>
-            <p>
+      </section>
 
-              Se han diseñado afirmaciones que describen comportamientos acerca del estilo del liderazgo. Por favor lea
-              cada una y responda en qué grado está de acuerdo con que usted se comporta de esa manera. Para responder
-              tenga en cuenta la escala que se presenta a continuación. Vale la pena aclarar que el 0 corresponde al "No
-              sé/No tengo elementos suficientes para responder", 1 al "totalmente en desacuerdo" o no rotundo y la 10 el
-              "totalmente de acuerdo" o si rotundo, puede utilizar todos los niveles intermedios para expresar lo que
-              piensa de su propio comportamiento.
-              <br>
-              <br>
-              que no hay respuestas buenas o malas. Lo que importa es conocer su percepción frente a su
-              comportamiento como líder. Trate de responder rápidamente, no se detenga mucho en cada afirmación. Evite
-              usar la opción 0 (No sé/No tengo elementos suficientes para responder). Utilícela lo menos posible y
-              sólo
-              cuando sea muy necesario.
-              <br>
-              <br>
-              <strong>A continuación le presentamos algunos ejemplos que muestran cómo se debe responde el cuestionario:
-                <br>
-                6. Soluciono los problemas con creatividad.
-              </strong> <br>
-              Si usted está más bien en desacuerdo con esta afirmación puede marcar la opción 3 que muestra un nivel de
-              mediano desacuerdo con la misma.
-              <br>
-              <br>
-              <strong>
-                Ejemplo:
-              </strong>
-            </p>
-            <img src="./images/ejemplo1.png" alt="ExampleImage">
-            <br>
-            <br>
-            <p>
-              <strong>13. Busca obtener retroalimentación sobre su desempeño.</strong><br>Supongamos que usted está
-              bastante de acuerdo con esta afirmación, aunque en ocasiones esporádicas no lo ha hecho. Puede marcar la
-              opción 8 que muestra acuerdo, pero sin llegar al si rotundo.
-              <br>
-              <br>
-              <strong>Ejemplo:</strong>
-            </p>
-            <img src="./images/ejemplo2.png" alt="ExampleImage">
-            <br>
-            <br>
-            <div class="has-text-centered">
-              <button @click="" class="button is-primary">Anterior</button> <button @click=""
-                class="button is-primary">Siguiente</button>
-            </div>
-          </section>
-          <div>
-            <section>
-              <strong>AFIRMACIONES</strong>
-              <div class="has-text-centered">
-                <button @click="" class="button is-primary">Anterior</button> <button @click=""
-                  class="button is-primary">Siguiente</button>
-              </div>
-            </section>
+      <section>
+        <div>
+          <strong>¿Usted es jefe?</strong>
+          <br>
+          <br>
+          <label class="radio">
+            <input type="radio" name="rsvp">
+            Si
+          </label>
+          <br>
+          <label class="radio">
+            <input type="radio" name="rsvp">
+            No
+          </label>
+          <div class="has-text-centered">
+            <button @click="" class="button is-primary">Anterior</button> <button @click="siguiente(1)"
+              class="button is-primary">Siguiente</button>
           </div>
         </div>
+      </section>
 
-      </div>
-  </section>
-  <div id="app">
-    <h2>COLABORADORES</h2>
-    <p>{{ questions }}</p>
+      <section>
+        <strong>Lo invitamos a seguir las instrucciones:</strong>
+        <br>
+        <br>
+        <p>
+
+          Se han diseñado afirmaciones que describen comportamientos acerca del estilo del liderazgo. Por favor
+          lea
+          cada una y responda en qué grado está de acuerdo con que usted se comporta de esa manera. Para
+          responder
+          tenga en cuenta la escala que se presenta a continuación. Vale la pena aclarar que el 0 corresponde al
+          "No
+          sé/No tengo elementos suficientes para responder", 1 al "totalmente en desacuerdo" o no rotundo y la
+          10
+          el
+          "totalmente de acuerdo" o si rotundo, puede utilizar todos los niveles intermedios para expresar lo
+          que
+          piensa de su propio comportamiento.
+          <br>
+          <br>
+          que no hay respuestas buenas o malas. Lo que importa es conocer su percepción frente a su
+          comportamiento como líder. Trate de responder rápidamente, no se detenga mucho en cada afirmación.
+          Evite
+          usar la opción 0 (No sé/No tengo elementos suficientes para responder). Utilícela lo menos posible y
+          sólo
+          cuando sea muy necesario.
+          <br>
+          <br>
+          <strong>A continuación le presentamos algunos ejemplos que muestran cómo se debe responde el
+            cuestionario:
+            <br>
+            6. Soluciono los problemas con creatividad.
+          </strong> <br>
+          Si usted está más bien en desacuerdo con esta afirmación puede marcar la opción 3 que muestra un nivel
+          de
+          mediano desacuerdo con la misma.
+          <br>
+          <br>
+          <strong>
+            Ejemplo:
+          </strong>
+        </p>
+        <img src="./images/ejemplo1.png" alt="ExampleImage">
+        <br>
+        <br>
+        <p>
+          <strong>13. Busca obtener retroalimentación sobre su desempeño.</strong><br>Supongamos que usted está
+          bastante de acuerdo con esta afirmación, aunque en ocasiones esporádicas no lo ha hecho. Puede marcar
+          la
+          opción 8 que muestra acuerdo, pero sin llegar al si rotundo.
+          <br>
+          <br>
+          <strong>Ejemplo:</strong>
+        </p>
+        <img src="./images/ejemplo2.png" alt="ExampleImage">
+        <br>
+        <br>
+        <div class="has-text-centered">
+          <button @click="" class="button is-primary">Anterior</button> <button @click="siguiente(1)"
+            class="button is-primary">Siguiente</button>
+        </div>
+      </section>
+
+
+      <section>
+        <div>
+          <strong>AFIRMACIONES</strong>
+          <div class="has-text-centered">
+            <button @click="" class="button is-primary">Anterior</button> <button @click="siguiente(1)"
+              class="button is-primary">Siguiente</button>
+          </div>
+        </div>
+      </section>
+
+
+      <h2>COLABORADORES</h2>
+      <p>{{ questions }}</p>
+    </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="./app.js"></script>
