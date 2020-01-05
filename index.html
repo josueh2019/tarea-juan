@@ -16,6 +16,7 @@
 
   </h1>
 </div>
+<br>
 
 <body>
   <div id="app">
@@ -300,18 +301,26 @@
 
 
       <section>
-        <div>
-          <strong>AFIRMACIONES</strong>
+        <div class="has-text-weight-semibold">
+          <h2 class="subtitle"><strong>AUTOEVALUACION LIDERES</strong></h2>
+          <br>
+          <strong>
+            AFIRMACIONES
+          </strong>
+          <br>
+          <br>
+          <ol>
+            <li class="is-size-6" class="content" class="has-text-left" v-for="(k,v) in questions" :key="v">{{k.lider}}
+            </li>
+          </ol>
           <div class="has-text-centered">
             <button @click="" class="button is-primary">Anterior</button> <button @click="siguiente(1)"
               class="button is-primary">Siguiente</button>
           </div>
+          <br>
         </div>
       </section>
 
-
-      <h2>COLABORADORES</h2>
-      <p>{{ questions }}</p>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
