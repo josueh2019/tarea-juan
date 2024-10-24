@@ -11,6 +11,6 @@
   "dependencies": {
     "bulma": "^0.8.0",
     "bulma-extensions": "^6.2.7",
-    "vue": "^2.6.10"
+    "vue": "^3.0.0"
   }
 }
